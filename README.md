@@ -203,7 +203,7 @@ bash
 pip install --upgrade undetected-chromedriver
  Anti-Detection Best Practices
  
-✅ DO:
+## ✅ DO:
 
  Add random delays (1-3 seconds)
 
@@ -215,7 +215,7 @@ pip install --upgrade undetected-chromedriver
 
  Spread requests over time
 
-❌ DON'T:
+## ❌ DON'T:
 
  Scrape without delays
 
