@@ -1,6 +1,9 @@
 🏠 Zillow Real Estate Scraper
 📋 Project Overview
-Zillow Real Estate Scraper is a 🎯 production-ready Python web scraping solution designed to extract real estate property listings from Zillow with stealth-based browsing techniques and comprehensive data cleaning. This project demonstrates professional-grade web automation, anti-detection methods, and data engineering best practices.
+Zillow Real Estate Scraper is a 🎯 production-ready Python web scraping solution designed to
+extract real estate property listings from Zillow with stealth-based browsing techniques and
+comprehensive data cleaning. This project demonstrates professional-grade web automation,
+anti-detection methods, and data engineering best practices.
 
 🎯 Purpose
 🔍 Extract property listing data (price, address, beds, baths, sqft) from Zillow search results for market research, analysis, and portfolio demonstration. Built with ethical scraping practices and compliance in mind.
