@@ -1,5 +1,11 @@
 # 🏠 Zillow Real Estate Scraper
 
+## Project Files
+
+- [zillow_scraper.py](zillow_scraper.py) — scraping logic  
+- [zillow_data_cleaning.py](zillow_data_cleaning.py) — data cleaning  
+- [zillow_listings_data.csv](zillow_listings_data.csv) — cleaned dataset 
+
 ## 📋 Project Overview
 
 Zillow Real Estate Scraper is a  production-ready Python web scraping solution designed to
