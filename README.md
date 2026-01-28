@@ -2,7 +2,7 @@
 
 ## 📋 Project Overview
 
-Zillow Real Estate Scraper is a 🎯 production-ready Python web scraping solution designed to
+Zillow Real Estate Scraper is a  production-ready Python web scraping solution designed to
 
 extract real estate property listings from Zillow with stealth-based browsing techniques and
 
@@ -28,41 +28,41 @@ anti-detection methods, and data engineering best practices.
 
 ## 📊 Key Features
 
-✅ Stealthy Anti-Detection 🛡️
-🔐 undetected-chromedriver + selenium-stealth integration
+ Stealthy Anti-Detection 🛡️
+ undetected-chromedriver + selenium-stealth integration
 
-🎭 Random user-agent selection (Chrome 131-133)
+ Random user-agent selection (Chrome 131-133)
 
-🎪 CDP-level webdriver masking
+ CDP-level webdriver masking
 
-👣 Human-like scrolling patterns
+ Human-like scrolling patterns
 
-✅ Smart Data Extraction 🎯
-📄 Pagination support (up to 20 pages)
+ Smart Data Extraction 🎯
+ Pagination support (up to 20 pages)
 
-📊 Structured CSV output
+ Structured CSV output
 
 🔗 Robust XPath/CSS selectors
 
-🚫 Duplicate removal
+ Duplicate removal
 
-✅ Comprehensive Data Cleaning 🧹
-🏘️ Address parsing (street, city, state, zip)
+ Comprehensive Data Cleaning 🧹
+ Address parsing (street, city, state, zip)
 
-💰 Price normalization (remove $, commas)
+ Price normalization (remove $, commas)
 
-🔢 Numeric field conversion (beds, baths, sqft)
+ Numeric field conversion (beds, baths, sqft)
 
-❓ Missing value handling
+ Missing value handling
 
-✅ Production-Grade Code 💻
-🛡️ Try-catch error handling
+ Production-Grade Code 💻
+ Try-catch error handling
 
-⏱️ Configurable timeouts & retry logic
+ Configurable timeouts & retry logic
 
-🎯 Graceful degradation on missing elements
+ Graceful degradation on missing elements
 
-🏗️ Clean OOP architecture
+ Clean OOP architecture
 
 ## 🛠️ Tech Stack
 
@@ -79,25 +79,25 @@ anti-detection methods, and data engineering best practices.
 
 text
 zillow-real-estate-scraper/
-├── 📄 README.md
-├── 📄 requirements.txt
-├── 🐍 zillow_scraper.py
-├── 🐍 clean_zillow_data.py
-├── 📁 data/
+├──  README.md
+├──  requirements.txt
+├──  zillow_scraper.py
+├──  clean_zillow_data.py
+├──  data/
 │   ├── Zillow_Propertys_data.csv
 │   └── zillow_clean.csv
-└── 📁 samples/
+└──  samples/
     └── screenshots/
-🚀 Quick Start
-📋 Prerequisites
-✅ Python 3.9+ (3.10+ recommended)
+ Quick Start
+ Prerequisites
+ Python 3.9+ (3.10+ recommended)
 
-✅ Google Chrome (latest version)
+ Google Chrome (latest version)
 
-✅ pip & Git
+ pip & Git
 
 🔧 Installation
-1️⃣ Clone Repository
+1️ Clone Repository
 bash
 git clone https://github.com/ketandas-codes/zillow-real-estate-scraper.git
 cd zillow-real-estate-scraper
@@ -158,10 +158,10 @@ File: Zillow_Propertys_data.csv
 
 text
 address | price_dollar | beds | baths | sqft
-▶️ Run the Data Cleaner
+ Run the Data Cleaner
 bash
 python clean_zillow_data.py
-📥 Output - Cleaned Data ✨
+ Output - Cleaned Data ✨
 File: zillow_clean.csv
 
 text
@@ -170,17 +170,17 @@ address | street_number | street_name | city | state | zip_code | price_dollar |
 ⚙️ Adjust Scraper Parameters
 Edit values in zillow_scraper.py:
 
-⏱️ TIMEOUT: Increase if network is slow (default: 10s)
+ TIMEOUT: Increase if network is slow (default: 10s)
 
-👤 USER_AGENTS: Add more agents to rotate between them
+ USER_AGENTS: Add more agents to rotate between them
 
-📄 MAX_PAGES: Pages to scrape (default: 20)
+ MAX_PAGES: Pages to scrape (default: 20)
 
-🖥️ WINDOW_SIZE: Browser resolution (default: 1920x1080)
+ WINDOW_SIZE: Browser resolution (default: 1920x1080)
 
-🎭 HEADLESS_MODE: Set to False for debugging (default: True)
+ HEADLESS_MODE: Set to False for debugging (default: True)
 
-🌍 Environment Variables
+ Environment Variables
 Create .env file in project root:
 
 text
@@ -188,59 +188,60 @@ ZILLOW_URL=https://www.zillow.com/
 TIMEOUT=10
 MAX_PAGES=20
 DEBUG_MODE=False
-⚠️ Important Notes & Best Practices
-🔗 Chrome & Driver Compatibility
+ Important Notes & Best Practices
+ Chrome & Driver Compatibility
 If you encounter driver version mismatch errors:
 
 bash
 ## Update Chrome to latest version
 pip install --upgrade undetected-chromedriver
-🛡️ Anti-Detection Best Practices
+ Anti-Detection Best Practices
+ 
 ✅ DO:
 
-⏳ Add random delays (1-3 seconds)
+ Add random delays (1-3 seconds)
 
-🔄 Rotate user agents
+ Rotate user agents
 
-🌍 Use residential proxies for large jobs
+ Use residential proxies for large jobs
 
-🤖 Respect robots.txt
+ Respect robots.txt
 
-📅 Spread requests over time
+ Spread requests over time
 
 ❌ DON'T:
 
-🚫 Scrape without delays
+ Scrape without delays
 
-🚫 Use same user-agent repeatedly
+ Use same user-agent repeatedly
 
-🚫 Hammer the server with rapid requests
+ Hammer the server with rapid requests
 
-🚫 Ignore blocking/CAPTCHA signals
+ Ignore blocking/CAPTCHA signals
 
-🚫 Extract personal data
+ Extract personal data
 
-🚦 Rate Limiting & Ethical Scraping
-⚡ Zillow's servers get significant traffic. Be responsible:
+ Rate Limiting & Ethical Scraping
+ Zillow's servers get significant traffic. Be responsible:
 
-🕐 Don't scrape during peak hours if possible
+ Don't scrape during peak hours if possible
 
-⏳ Increase delays between requests
+ Increase delays between requests
 
-📊 Monitor for blocking signals (403, 429 errors)
+ Monitor for blocking signals (403, 429 errors)
 
-🌐 Consider using proxies for large-scale jobs
+ Consider using proxies for large-scale jobs
 
-🧪 Test on small dataset first
+ Test on small dataset first
 
-📝 Common Use Cases
-1. 📊 Real Estate Market Analysis
+## 📝 Common Use Cases
+1.  Real Estate Market Analysis
 Scrape property listings for Austin, TX, then analyze price trends and market insights.
 
-2. 📈 Price Trend Monitoring
+2.  Price Trend Monitoring
 Save scrapes with timestamps to track price changes over time and identify patterns.
 
-3. 🎨 Portfolio Project Showcase
+3.  Portfolio Project Showcase
 Use cleaned data to create visualizations, interactive maps, or dashboards for your portfolio.
 
 ## 📜 License
