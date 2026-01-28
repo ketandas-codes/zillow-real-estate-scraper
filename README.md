@@ -1,5 +1,7 @@
-🏠 Zillow Real Estate Scraper
-📋 Project Overview
+# 🏠 Zillow Real Estate Scraper
+
+## 📋 Project Overview
+
 Zillow Real Estate Scraper is a 🎯 production-ready Python web scraping solution designed to
 
 extract real estate property listings from Zillow with stealth-based browsing techniques and
@@ -9,7 +11,7 @@ comprehensive data cleaning. This project demonstrates professional-grade web au
 anti-detection methods, and data engineering best practices.
 
 
-🎯 Purpose
+## 🎯 Purpose
 🔍 Extract property listing data (price, address, beds, baths, sqft) from Zillow search results for market research, analysis, and portfolio demonstration. Built with ethical scraping practices and compliance in mind.
 
 ✨ What Makes It Different
@@ -23,7 +25,9 @@ anti-detection methods, and data engineering best practices.
 
 📈 Portfolio Grade: Clean code, documentation, and best practices
 
-📊 Key Features
+
+## 📊 Key Features
+
 ✅ Stealthy Anti-Detection 🛡️
 🔐 undetected-chromedriver + selenium-stealth integration
 
@@ -60,7 +64,8 @@ anti-detection methods, and data engineering best practices.
 
 🏗️ Clean OOP architecture
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
+
 | 🔧 Technology              | 📌 Version | 🎯 Purpose               |
 | -------------------------- | ---------- | ------------------------ |
 | 🐍 Python                  | 3.9+       | Core language            |
@@ -69,7 +74,9 @@ anti-detection methods, and data engineering best practices.
 | 👤 selenium-stealth        | Latest     | Stealth mode             |
 | 📊 pandas                  | 2.0+       | Data processing          |
 | 🔢 numpy                   | 1.26+      | Numerical operations     |
-📁 Project Structure
+
+## 📁 Project Structure
+
 text
 zillow-real-estate-scraper/
 ├── 📄 README.md
@@ -96,11 +103,11 @@ git clone https://github.com/ketandas-codes/zillow-real-estate-scraper.git
 cd zillow-real-estate-scraper
 2️⃣ Create Virtual Environment
 bash
-# macOS / Linux
+## macOS / Linux
 python3 -m venv .venv
 source .venv/bin/activate
 
-# Windows PowerShell
+## Windows PowerShell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 3️⃣ Install Dependencies
@@ -117,19 +124,19 @@ numpy==1.26.3
 python-dotenv==1.0.0
 4️⃣ Verify Chrome Installation ✅
 bash
-# macOS
+## macOS
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version
 
-# Linux
+## Linux
 google-chrome --version
 
-# Windows
+## Windows
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --version
 💻 Usage
 ▶️ Run the Scraper
 bash
 python zillow_scraper.py
-🎯 Custom Search Location
+## 🎯 Custom Search Location
 Edit __main__ in zillow_scraper.py:
 
 python
@@ -146,7 +153,7 @@ State only: "Texas" or "TX"
 
 Zip code: "78701"
 
-📤 Output - Raw Data
+## 📤 Output - Raw Data
 File: Zillow_Propertys_data.csv
 
 text
@@ -186,7 +193,7 @@ DEBUG_MODE=False
 If you encounter driver version mismatch errors:
 
 bash
-# Update Chrome to latest version
+## Update Chrome to latest version
 pip install --upgrade undetected-chromedriver
 🛡️ Anti-Detection Best Practices
 ✅ DO:
