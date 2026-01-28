@@ -243,24 +243,12 @@ Save scrapes with timestamps to track price changes over time and identify patte
 3. 🎨 Portfolio Project Showcase
 Use cleaned data to create visualizations, interactive maps, or dashboards for your portfolio.
 
-📜 License
-📋 MIT License — See LICENSE file for details.
+## 📜 License
+. MIT License
 
-✅ In plain English:
-
-✅ Use commercially
-
-✅ Modify freely
-
-✅ Distribute
-
-⚠️ Include original license
-
-⚠️ No warranty provided
-
-📧 Contact & Support
-👨‍💻 Author: Ketan Das
-🔖 Title: Python Developer | Web Scraping & Automation
-
-📧 Email: ketankumar.codes@gmail.com
+## 📬 Contact
+. Ketan Das
+. Python Developer | Web Scraping & Automation
+. GitHub: @ketandas-codes
+. 📧 Email: ketankumar.codes@gmail.com
 🐙 GitHub: @ketandas-codes
