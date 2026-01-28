@@ -248,7 +248,11 @@ Use cleaned data to create visualizations, interactive maps, or dashboards for y
 
 ## 📬 Contact
 . Ketan Das
+
 . Python Developer | Web Scraping & Automation
+
 . GitHub: @ketandas-codes
+
 . 📧 Email: ketankumar.codes@gmail.com
+
 🐙 GitHub: @ketandas-codes
