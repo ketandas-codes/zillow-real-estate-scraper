@@ -254,5 +254,5 @@ Use cleaned data to create visualizations, interactive maps, or dashboards for y
 
 . GitHub: @ketandas-codes
 
-. 📧 Email: ketankumar.codes@gmail.com
+. 📧 Email: ketandas.codes@gmail.com
 🐙 GitHub: @ketandas-codes
