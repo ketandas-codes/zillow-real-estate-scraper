@@ -1,0 +1,21 @@
+address,street_number,street_name,city,state,zip_code,price_dollar,beds,baths,sqft
+"7254 ruby palm, san antonio, tx 78218",7254.0,ruby palm,san antonio,tx,78218,255000.0,3.0,3.0,2096.0
+"800 clearlake dr, allen, tx 75002",800.0,clearlake dr,allen,tx,75002,540000.0,5.0,4.0,3370.0
+"6123 northaven rd, dallas, tx 75230",6123.0,northaven rd,dallas,tx,75230,3599999.0,5.0,7.0,5731.0
+"419 n san ignacio ave, san antonio, tx 78228",419.0,n san ignacio ave,san antonio,tx,78228,259900.0,4.0,3.0,1614.0
+"650 winkler way, springtown, tx 76082",650.0,winkler way,springtown,tx,76082,549500.0,4.0,3.0,2519.0
+"13002 stanford dr, austin, tx 78748",13002.0,stanford dr,austin,tx,78748,320000.0,3.0,2.0,1670.0
+"233 springtree trl, cibolo, tx 78108",233.0,springtree trl,cibolo,tx,78108,385000.0,4.0,3.0,2845.0
+"1867 nuthatch ridge, new braunfels, tx 78130",1867.0,nuthatch ridge,new braunfels,tx,78130,345000.0,5.0,3.0,2809.0
+"2312 whitney ln, wylie, tx 75098",2312.0,whitney ln,wylie,tx,75098,595000.0,5.0,4.0,3883.0
+"4904 holden (pvt) cir, college station, tx 77845",4904.0,holden (pvt) cir,college station,tx,77845,1725000.0,5.0,5.0,4427.0
+"908 golden bear cv, round rock, tx 78664",908.0,golden bear cv,round rock,tx,78664,1150000.0,5.0,4.0,4817.0
+"6526 rock canyon trl, dallas, tx 75232",6526.0,rock canyon trl,dallas,tx,75232,329900.0,4.0,3.0,1649.0
+"2402 noor, san antonio, tx 78248",2402.0,noor,san antonio,tx,78248,475000.0,4.0,3.0,2758.0
+"204 lake estates dr, montgomery, tx 77356",204.0,lake estates dr,montgomery,tx,77356,349000.0,4.0,4.0,2530.0
+"2028 tuam st, houston, tx 77004",2028.0,tuam st,houston,tx,77004,290000.0,3.0,4.0,1520.0
+"13101 willow tree ct, fort worth, tx 76052",13101.0,willow tree ct,fort worth,tx,76052,785000.0,4.0,3.0,3839.0
+"26202 dark horse, san antonio, tx 78260",26202.0,dark horse,san antonio,tx,78260,839900.0,4.0,4.0,3526.0
+"7411 hour glass cir, dallas, tx 75252",7411.0,hour glass cir,dallas,tx,75252,689000.0,4.0,4.0,3329.0
+"12109 bryony dr, austin, tx 78739",12109.0,bryony dr,austin,tx,78739,750000.0,4.0,4.0,3105.0
+"20615 moonrise river ln, cypress, tx 77433",20615.0,moonrise river ln,cypress,tx,77433,240000.0,4.0,2.0,1400.0
