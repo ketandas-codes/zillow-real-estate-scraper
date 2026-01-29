@@ -83,7 +83,6 @@ anti-detection methods, and data engineering best practices.
 
 ## 📁 Project Structure
 
-text
 zillow-real-estate-scraper/
 ├──  README.md
 ├──  requirements.txt
@@ -102,18 +101,18 @@ zillow-real-estate-scraper/
 
  pip & Git
 
-🔧 Installation
+## 🔧 Installation
 1️ Clone Repository
 bash
 git clone https://github.com/ketandas-codes/zillow-real-estate-scraper.git
 cd zillow-real-estate-scraper
 2️⃣ Create Virtual Environment
 bash
-## macOS / Linux
+ macOS / Linux
 python3 -m venv .venv
 source .venv/bin/activate
 
-## Windows PowerShell
+ Windows PowerShell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 3️⃣ Install Dependencies
@@ -130,10 +129,10 @@ numpy==1.26.3
 python-dotenv==1.0.0
 4️⃣ Verify Chrome Installation ✅
 bash
-## macOS
+ macOS
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version
 
-## Linux
+ Linux
 google-chrome --version
 
 ## Windows
